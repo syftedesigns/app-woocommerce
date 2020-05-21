@@ -1,5 +1,7 @@
 {
   "name": "woocommerce",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

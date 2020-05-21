@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Data } from '../data';
+import { Settings } from '../data/settings';
 
 @Component({
   selector: 'app-tabs',
@@ -6,7 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
-  constructor() {}
-
+	constructor(public data: Data, public settings: Settings){
+	}
 }
